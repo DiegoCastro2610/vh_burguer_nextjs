@@ -1,0 +1,79 @@
+#main{
+    max-height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: var(--fundo-claro);
+}
+
+#main img{
+max-width: 100vh;
+width: 100%;
+height: 100vh;
+object-fit: cover;
+}
+
+#campo_login{
+   display: flex; 
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+}
+
+#campo_login h1{
+    text-align: center;
+    width: 100%;
+    max-width: 520px;
+    color: var(--laranja-destaque);
+    font-weight: 500;
+    font-family: var(--font-fredoka);
+    font-size: 50px;
+}
+
+#formulario{
+    font-family: var(--font-fredoka);
+    width: 70%;
+}
+
+.campo_form{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 22px;
+}
+
+.campo_form label{
+    font-weight: 500;
+    color: var(--fundo-preto);
+    font-size: 17px;
+}
+
+.campo_form input{
+    height: 52px;
+    border: 1px solid rgba(0, 0, 0, 0);
+    border-radius: 10px;
+    padding: 0 18px;
+    box-shadow: 0 6px 14px rgba(0, 0, 0, 0.10);
+    outline: none;
+    font-size: 17px;
+}
+
+#esq_senha{
+    display: block;
+    text-align: right;
+    text-decoration: none;
+    margin: 6px 0 26px;
+    color: var(--vinho);
+    font-size: 17px;
+}   
+
+#formulario button{
+    width: 100%;
+    height: 52px;
+    border: none;
+    border-radius: 10px;
+    background: var(--laranja-destaque);
+    color: var(--vinho);
+    font-weight: 700;
+    cursor: pointer;
+    font-size: 17px;
+}

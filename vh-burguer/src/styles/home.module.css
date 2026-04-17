@@ -1,0 +1,159 @@
+#banner{
+background-color: var(--fundo-claro);
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+
+#tituloBemVindo{
+    font-family: var(--font-fredoka);
+    font-size: 80px;
+    color: var(--laranja-destaque);
+}
+
+#imagemBanner{
+    width: 830px;
+    height: 398.83px;
+}
+
+#botaosBanner{
+    width: 831px;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 100px;
+}
+
+#botaoChamar{
+    background-color: var(--laranja-destaque);
+    color: var(--vinho);
+    width: 400px;
+    height: 60px;
+    border-radius: 10px;
+    font-size: 28px;
+    border: none;
+    font-family: var(--font-fredoka)
+}
+
+#botaoChamar:hover{
+    border: 2px solid var(--vinho);
+}
+
+#botaoCardapio{
+    background-color: var(--vinho);
+    color: var(--laranja-destaque);
+    width: 400px;
+    height: 60px;
+    border-radius: 10px;
+    font-size: 28px;
+    border: none;
+    font-family: var(--font-fredoka)
+}
+
+#botaoCardapio:hover{
+    border: 2px solid var(--laranja-destaque);
+}
+
+#destaques{
+ background-color: var(--fundo-escuro);
+ display: flex;
+ align-items: center;
+ justify-content: center;
+}
+
+#imagemEsquerda{
+    width: 488px;
+    height: 500px;
+    border-radius: 20px;
+    background-image: url("../../public/imgs/mais_pedidos.png");
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+    color: white;
+    font-family: var(--font-fredoka);
+}
+
+#imagensDireita{
+    width: 488px;
+    height: 500px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 95px;
+    margin-top: 95px;
+    margin-left: 20px;
+}
+
+#imagensDireitaCima{
+    width: 488px;
+    height: 240px;
+    border-radius: 20px;
+    background-image:url("../../public/imgs/muito_bacon.png") ;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
+    color: white;
+    font-family: var(--font-fredoka);
+}
+
+
+#imagensDireitaBaixo{
+    width: 488px;
+    height: 240px;
+    border-radius: 20px;
+    margin-top: 20px;
+    background-image:url("../../public/imgs/super_combos.png") ;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
+    color: white;
+    font-family: var(--font-fredoka);
+}
+
+.paragrafoDestaque{
+    font-size: 20px;
+    margin-right: 15px;
+    margin-left: 15px;
+}
+
+.h3Destaque{
+    font-size: 35px;
+    margin-right: 15px;
+    margin-left: 15px;
+    margin-bottom: 10px;
+}
+
+#unidades{
+ background-color: var(--fundo-escuro);
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ height: 690px;
+}
+
+#imagemUnidade{
+    width: 590px;
+    height: 468px;
+    border-radius: 20px;
+    margin-right: 100px;
+}
+
+#nossasUnidade{
+    color: white;
+    font-family: var(--font-fredoka)
+
+}
+
+#h3Unidade{
+    font-size: 35px;
+}
+
+#listaUnidades{
+    font-size: 28px;
+    padding-left: 25px;
+    margin-top: 130px;
+}
+

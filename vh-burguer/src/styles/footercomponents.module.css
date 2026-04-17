@@ -1,0 +1,36 @@
+#footer{
+background-color: var(--vinho);
+height: 21vh;
+padding-top: 5vh;
+}
+
+#divImagens{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 5vh;
+}
+
+#logo{
+    margin-right: 45vw;
+}
+
+#redes{
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.rede{
+    margin-left: 2vw;
+}
+
+#divDireitos{
+    color: var(--laranja-destaque);
+    display: flex;
+    justify-content: center;
+    border-top: 1px solid ;
+    width: 90vw;
+    margin-left: 5vw;
+    padding-top: 2vh;
+    font-family: var(--font-fredoka);
+}
