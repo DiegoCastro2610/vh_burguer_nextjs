@@ -157,3 +157,66 @@ align-items: center;
     margin-top: 130px;
 }
 
+#titulo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 230px;
+}
+
+#botaoscardapio{
+    margin-bottom: 52px;
+}
+
+#titulo h2{
+    font-family: var(--font-fredoka);
+    color: var(--laranja-destaque);
+    font-size: 75px;
+}
+
+#botaofiltrar{
+    width: 183px;
+    height: 60px;
+    border-radius: 10px;
+    color: var(--vinho);
+    background-color: var(--laranja-destaque);
+    font-family: var(--font-fredoka);
+    font-size: 28px;
+    border: none;
+    margin-right: 605px;
+}
+
+#botaopromocao{
+    width: 387px;
+    height: 60px;
+    border-radius: 10px;
+    color: var(--vinho);
+    background-color: var(--laranja-destaque);
+    font-family: var(--font-fredoka);
+    font-size: 28px;
+    border: none;
+    margin-right: 31px;
+}
+
+#botaoproduto{
+    width: 387px;
+    height: 60px;
+    border-radius: 10px;
+    color: var(--vinho);
+    background-color: var(--laranja-destaque);
+    font-family: var(--font-fredoka);
+    font-size: 28px;
+    border: none;
+}
+
+#cardapio{
+    padding-left: 125px;
+    padding-right: 124px;
+    padding-bottom: 158px;
+}
+
+#cardsproduto{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}

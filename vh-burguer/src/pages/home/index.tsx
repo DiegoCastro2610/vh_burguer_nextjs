@@ -1,5 +1,7 @@
 import Header from "@/components/header/header"
 import Footer from "@/components/footer/footer"
+import Card from "@/components/card-product/card-product"
+
 
 import styles from "../../styles/home.module.css"
 
@@ -36,7 +38,27 @@ const Home = () => {
                 </section>
 
                 <section id={styles.cardapio}>
-                    <h2>Cardapio</h2>
+                    <div id={styles.titulo}>
+                        <h2>Cardapio</h2>
+                    </div>
+                    <div id={styles.botaoscardapio}>
+                        <button id={styles.botaofiltrar}>Filtrar</button>
+                        <button id={styles.botaopromocao}>Promoçãoes</button>
+                        <button id={styles.botaoproduto}>Produtos</button>
+                    </div>
+                    <div id={styles.cardsproduto}>
+                        <Card/>
+                        <Card/>
+                        <Card/>
+                        <Card/>
+                        <Card/>
+                        <Card/>
+                        <Card/>
+                        <Card/>
+                        <Card/>
+                        <Card/>
+                    </div>
+                    
                 </section>
 
                 <section id={styles.unidades}>
