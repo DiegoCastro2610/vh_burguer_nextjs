@@ -1,5 +1,3 @@
-import { redirect } from "next/dist/server/api-utils";
-
 export async function getServerSideProps() {
   return {
     redirect: {
@@ -9,6 +7,6 @@ export async function getServerSideProps() {
   };
 }
 
-export default function Index(){
+export default function Index() {
   return null;
 }

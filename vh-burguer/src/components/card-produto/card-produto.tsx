@@ -1,5 +1,5 @@
 import { formatarPreco } from "@/utils/formatacao";
-import styles from "@/styles/card-product.module.css"
+import styles from "./card-produto.module.css"
 import Link from "next/link";
 
 type Produto = {
@@ -7,16 +7,16 @@ type Produto = {
     descricao: string,
     img: string,
     preco: number,
-    ProdutoID: number,
+    produtoID: number,
     //Criando uma props que recebe uma função
     onDelete: (produtoId: number) => void,
     estaLogado: boolean
 }
 
-const CardProduto = ({ titulo, descricao, img, preco, ProdutoID, onDelete, estaLogado }: Produto) => {
+const CardProduto = ({ titulo, descricao, img, preco, produtoID, onDelete, estaLogado }: Produto) => {
     return (
         <article className={styles.card_produto}>
-            <Link href={"/detalhe-produto/" + ProdutoID}>
+            <Link href={"/detalhe-produto/" + produtoID}>
                 <img src={img} alt="Produto vendido pela loja."
                     className={styles.img_produto} />
             </Link>
@@ -26,13 +26,13 @@ const CardProduto = ({ titulo, descricao, img, preco, ProdutoID, onDelete, estaL
                 <p className={styles.valor_produto}>{formatarPreco(preco)}</p>
                 {estaLogado && (
                     <>
-                        <button onClick={() => onDelete(ProdutoID)}>
+                        <button onClick={() => onDelete(produtoID)}>
                             <img src="/imgs/trash.svg" alt="ícone que representa exclusão" />
                         </button>
-                        <Link href={"/produto?id=" + ProdutoID}>
+                        <Link href={"/produto?id=" + produtoID}>
                             <img src="/imgs/editar.svg" alt="ícone que representa edição" />
                         </Link>
-                        <Link href={"/historico/" + ProdutoID}>
+                        <Link href={"/historico/" + produtoID}>
                             <img src="/imgs/info.svg" alt="ícone que representa edição" />
                         </Link>
                     </>

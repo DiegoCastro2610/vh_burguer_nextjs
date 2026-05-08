@@ -107,7 +107,7 @@
 }
 
 .card_destaque_mais_pedidos {
-    background-image: url('/imgs/mais_pedidos.png');
+    background-image: url(../../../public/imgs/mais_pedidos.png);
     height: 80%;
     width: 500px;
     background-size: cover;
@@ -124,7 +124,7 @@
 }
 
 .card_destaque_muito_bacon {
-    background-image: url('/imgs/muito_bacon.png');
+    background-image: url(../../../public/imgs/muito_bacon.png);
     height: 40%;
     /* width: 400px; */
     background-size: cover;
@@ -141,7 +141,7 @@
 }
 
 .card_destaque_super_combos {
-    background-image: url('/imgs/super_combos.png');
+    background-image: url(../../../public/imgs/super_combos.png);
     height: 40%;
     /* width: 500px; */
     background-size: cover;
@@ -195,7 +195,7 @@
 
 /* -----------------------------SECTION UNIDADES--------------------------------- */
 .unidades {
-    background: linear-gradient(#00000080, #00000080),url('/imgs/unidade.jpeg');
+    background: linear-gradient(#00000080, #00000080),url("../../../public/imgs/unidade.jpeg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -242,4 +242,6 @@
     list-style: none;
 }
 
-/* -----------------------------FIM SECTION UNIDADES--------------------
+/* -----------------------------FIM SECTION UNIDADES--------------------------------- */
+
+
